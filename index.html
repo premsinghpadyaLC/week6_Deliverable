@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>School Registration Deliverable - Webgate</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>School Registration Portal</h1>
+    <p><strong>Team Webgate</strong>: Premsingh Padya, Karthika Raj, Khusbhu</p>
+    <p>Week 6 | Developed by Premsingh Padya</p>
+  </header>
+
+  <nav>
+    <button onclick="showSection('flowchart')">Flowchart</button>
+    <button onclick="showSection('er')">ER Diagram</button>
+    <button onclick="showSection('schema')">DB Schema & Queries</button>
+  </nav>
+
+  <main>
+    <section id="flowchart" class="content-section">
+      <h2>System Flowchart</h2>
+      <p>This flowchart outlines the key user roles, interactions, and modules of the system.</p>
+      <embed src="webgate_week6_deliverable_flowchart.pdf" type="application/pdf" width="100%" height="600px" />
+      <a href="webgate_week6_deliverable_flowchart.pdf" download>Download Flowchart PDF</a>
+    </section>
+
+    <section id="er" class="content-section">
+      <h2>ER Diagram</h2>
+      <p>This ER Diagram shows entities like Student, Course, Teacher, Registration, etc., with relationships.</p>
+      <embed src="webgate_week6_deliverable_ER_Diagram.pdf" type="application/pdf" width="100%" height="600px" />
+      <a href="webgate_week6_deliverable_ER_Diagram.pdf" download>Download ER Diagram PDF</a>
+    </section>
+
+    <section id="schema" class="content-section">
+      <h2>Database Schema & Queries</h2>
+      <p>This document includes SQL table creation scripts, sample data, and useful queries based on the ER model.</p>
+      <embed src="webgate_week6_deliverable_Database_Query_schema.pdf" type="application/pdf" width="100%" height="600px" />
+      <a href="webgate_week6_deliverable_Database_Query_schema.pdf" download>Download SQL Schema PDF</a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Team Webgate | Powered by HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
